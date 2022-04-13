@@ -15,7 +15,6 @@ E:\moll\TicTacToe\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
 E:\moll\TicTacToe\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
 E:\moll\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.AssemblyReference.cache
 E:\moll\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.SuggestedBindingRedirects.cache
-E:\moll\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Login.resources
 E:\moll\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Menu.resources
 E:\moll\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Properties.Resources.resources
 E:\moll\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.GenerateResource.cache
