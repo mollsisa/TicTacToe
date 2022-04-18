@@ -17,9 +17,23 @@ namespace TicTacToe
             InitializeComponent();
         }
 
+        //Sign up
         private void guna2Button2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        //Sign in
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            if (txbEmail.Text == "adm")
+            {
+                guna2PictureBox2.Visible = false;
+            }
+            else
+            {
+                MessageBox.Show("Imvalido!");
+            }
         }
     }
 }

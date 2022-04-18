@@ -23,3 +23,16 @@ E:\moll\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
 E:\moll\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
 E:\moll\TicTacToe\TicTacToe\TicTacToe\bin\Debug\Guna.UI2.dll
 E:\moll\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.CopyComplete
+E:\tome\digue\TicTacToe\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+E:\tome\digue\TicTacToe\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
+E:\tome\digue\TicTacToe\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
+E:\tome\digue\TicTacToe\TicTacToe\TicTacToe\bin\Debug\Guna.UI2.dll
+E:\tome\digue\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.AssemblyReference.cache
+E:\tome\digue\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.SuggestedBindingRedirects.cache
+E:\tome\digue\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Menu.resources
+E:\tome\digue\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Properties.Resources.resources
+E:\tome\digue\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.GenerateResource.cache
+E:\tome\digue\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
+E:\tome\digue\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.CopyComplete
+E:\tome\digue\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
+E:\tome\digue\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
