@@ -26,9 +26,11 @@ namespace TicTacToe
         //Sign in
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            if (txbEmail.Text == "adm")
+            if (txbEmail.Text == "adm" && txbSenha.Text == "adm")
             {
-                guna2PictureBox2.Visible = false;
+                this.Hide();
+                Game game = new Game();
+                game.Show();
             }
             else
             {
