@@ -28,7 +28,7 @@ namespace TicTacToe
         {
             if (txbEmail.Text == "adm" && txbSenha.Text == "adm")
             {
-                this.Hide();
+                this.Close();
                 Game game = new Game();
                 game.Show();
             }

@@ -51,3 +51,5 @@ C:\0_MOLL\Repositorios_GITHUB\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.
 C:\0_MOLL\Repositorios_GITHUB\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
 C:\0_MOLL\Repositorios_GITHUB\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Game.resources
 C:\0_MOLL\Repositorios_GITHUB\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Local.resources
+E:\tome\digue\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Game.resources
+E:\tome\digue\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Local.resources
