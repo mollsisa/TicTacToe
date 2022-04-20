@@ -20,8 +20,9 @@ namespace TicTacToe
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Local local = new Local();
-            local.Show();
+            Local newform = new Local();
+            newform.Closed += (s, args) => this.Close();
+            newform.Show();
         }
     }
 }

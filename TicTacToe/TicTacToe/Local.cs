@@ -18,11 +18,59 @@ namespace TicTacToe
             InitializeComponent();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private bool verifica(string jogador)
+        {
+            bool ganha = false;
+            //Linhas
+            if(button1.Text == jogador && button2.Text == jogador && button3.Text == jogador)
+            {
+                ganha = true;
+            }
+            else if (button4.Text == jogador && button5.Text == jogador && button6.Text == jogador)
+            {
+                ganha = true;
+            }
+            else if (button7.Text == jogador && button8.Text == jogador && button9.Text == jogador)
+            {
+                ganha = true;
+            }
+            //Colunas
+            else if (button1.Text == jogador && button4.Text == jogador && button7.Text == jogador)
+            {
+                ganha = true;
+            }
+            else if (button2.Text == jogador && button5.Text == jogador && button8.Text == jogador)
+            {
+                ganha = true;
+            }
+            else if (button3.Text == jogador && button6.Text == jogador && button9.Text == jogador)
+            {
+                ganha = true;
+            }
+            //Diagonais
+            else if (button1.Text == jogador && button5.Text == jogador && button9.Text == jogador)
+            {
+                ganha = true;
+            }
+            else if (button3.Text == jogador && button5.Text == jogador && button7.Text == jogador)
+            {
+                ganha = true;
+            }
+            return ganha;
+        }
+
+        private void mensagem(string jogador, bool ganha) {
+            if (ganha)
+            {
+                MessageBox.Show($"O jogador {jogador} ganhou!");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
-            
-            if(btn.Text == "")
+
+            if (btn.Text == "")
             {
                 if (turno)
                 {
@@ -40,54 +88,6 @@ namespace TicTacToe
                     bool ganha = verifica(jogador);
                     mensagem(jogador, ganha);
                 }
-            }
-        }
-
-        private bool verifica(string jogador)
-        {
-            bool ganha = false;
-            //Linhas
-            if(guna2Button1.Text == jogador && guna2Button2.Text == jogador && guna2Button3.Text == jogador)
-            {
-                ganha = true;
-            }
-            else if (guna2Button4.Text == jogador && guna2Button5.Text == jogador && guna2Button6.Text == jogador)
-            {
-                ganha = true;
-            }
-            else if (guna2Button7.Text == jogador && guna2Button8.Text == jogador && guna2Button9.Text == jogador)
-            {
-                ganha = true;
-            }
-            //Colunas
-            else if (guna2Button1.Text == jogador && guna2Button4.Text == jogador && guna2Button7.Text == jogador)
-            {
-                ganha = true;
-            }
-            else if (guna2Button2.Text == jogador && guna2Button5.Text == jogador && guna2Button8.Text == jogador)
-            {
-                ganha = true;
-            }
-            else if (guna2Button3.Text == jogador && guna2Button6.Text == jogador && guna2Button9.Text == jogador)
-            {
-                ganha = true;
-            }
-            //Diagonais
-            else if (guna2Button1.Text == jogador && guna2Button5.Text == jogador && guna2Button9.Text == jogador)
-            {
-                ganha = true;
-            }
-            else if (guna2Button3.Text == jogador && guna2Button5.Text == jogador && guna2Button7.Text == jogador)
-            {
-                ganha = true;
-            }
-            return ganha;
-        }
-
-        private void mensagem(string jogador, bool ganha) {
-            if (ganha)
-            {
-                MessageBox.Show($"O jogador {jogador} ganhou!");
             }
         }
     }

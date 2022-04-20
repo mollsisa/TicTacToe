@@ -28,9 +28,10 @@ namespace TicTacToe
         {
             if (txbEmail.Text == "adm" && txbSenha.Text == "adm")
             {
-                this.Close();
-                Game game = new Game();
-                game.Show();
+                this.Hide();
+                Game newform = new Game();
+                newform.Closed += (s, args) => this.Close();
+                newform.Show();
             }
             else
             {
